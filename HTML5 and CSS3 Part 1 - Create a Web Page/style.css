@@ -10,7 +10,11 @@ body {
 	padding: 30px;
 }
 
-h1 {
+.main-title {
+	padding-left: 20px;
+}
+
+.centered-title {
 	text-align: center;
 }
 
@@ -29,9 +33,6 @@ em strong {
 .benefits {
 	background: #ffffff;
 	padding: 20px;
-}
-h2 {
-	text-align: center;
 }
 
 ul {
