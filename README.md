@@ -4,8 +4,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studied so far:
 
-1. 
+1. HTML5 and CSS3 Part 1: Create a Web Page
 
 ## Studying at the moment:
 
-- HTML5 and CSS3 Part 1: Create a Web Page
+- HTML5 and CSS3 Part 2: Positioning, Lists, and Navigation
