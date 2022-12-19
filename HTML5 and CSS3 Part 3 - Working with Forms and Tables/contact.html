@@ -33,15 +33,50 @@
 		<main>
 			<form>
 				<label for="full-name">First and last name</label>
-				<input type="text" id="full-name" />
+				<input type="text" id="full-name" class="default-input" />
 
 				<label for="email">Email</label>
-				<input type="text" id="email" />
+				<input type="text" id="email" class="default-input" />
 
 				<label for="phone">Phone</label>
-				<input type="text" id="phone" />
+				<input type="text" id="phone" class="default-input" />
 
-				<input type="submit" value="Send form" />
+				<label for="message">Message</label>
+				<textarea id="message" cols="70" rows="10" class="default-input"></textarea>
+
+				<div>
+					<p>How do you prefer our contact?</p>
+					<label for="radio-email">
+						<input type="radio" name="contact" value="email" id="radio-email" />
+						Email
+					</label>
+
+					<label for="radio-phone">
+						<input type="radio" name="contact" value="phone" id="radio-phone" />
+						Phone
+					</label>
+
+					<label for="radio-whatsapp">
+						<input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" />
+						Whatsapp
+					</label>
+
+					<div>
+						<p>What time do you prefer to be attended at our barbershop?</p>
+						<select>
+							<option value="">Morning</option>
+							<option value="">Afternoon</option>
+							<option value="">Night</option>
+						</select>
+					</div>
+
+					<label class="checkbox">
+						<input type="checkbox" />
+						Would you like to receive our news by email?
+					</label>
+
+					<input type="submit" value="Send form" />
+				</div>
 			</form>
 		</main>
 

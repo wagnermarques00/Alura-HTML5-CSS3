@@ -3,28 +3,6 @@ header {
 	padding: 20px 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
-form {
-	margin: 40px 0;
-}
-
-form label {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-form input {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
 .navbar-container {
 	position: relative;
 	width: 940px;
@@ -55,49 +33,31 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.products {
+main {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
 }
 
-.products li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: #000000 2px solid;
-	border-radius: 10px;
+form {
+	margin: 40px 0;
 }
 
-.products li:hover {
-	border: #c78c19 2px solid;
+form label,
+form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-.products li:active {
-	border: #088c19 2px solid;
+.default-input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
-.products h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.products li:hover h2 {
-	font-size: 34px;
-}
-
-.product-description {
-	font-size: 18px;
-}
-
-.product-price {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+.checkbox {
+	margin: 20px 0;
 }
 
 footer {
