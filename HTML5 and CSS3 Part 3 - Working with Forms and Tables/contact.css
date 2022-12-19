@@ -60,6 +60,24 @@ form legend {
 	margin: 20px 0;
 }
 
+.send-button {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.send-button:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
 footer {
 	text-align: center;
 	background: url("bg.jpg");
