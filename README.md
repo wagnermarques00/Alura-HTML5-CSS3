@@ -10,4 +10,4 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studying at the moment:
 
-- 
+- HTML5 and CSS3 Part 4: advancing CSS
