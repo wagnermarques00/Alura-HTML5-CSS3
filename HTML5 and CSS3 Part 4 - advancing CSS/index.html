@@ -2,46 +2,75 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Alura Barbershop</title>
 	</head>
 
 	<body>
 		<header>
-			<h1 class="main-title">Alura Barbershop</h1>
+			<div class="navbar-container">
+				<h1>
+					<img src="logo.png" alt="Alura Barbershop logo" />
+				</h1>
+
+				<nav>
+					<ul class="navigation">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="products.html">Products</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<img id="banner" src="banner.jpg" />
 
-		<div class="main">
-			<h2 class="centered-title">About Alura Barbershop</h2>
+		<img class="banner" src="banner.jpg" />
 
-			<p>
-				Located in the heart of the city, <strong>Alura Barbershop</strong> brings to the market the best for your hair
-				and beard. Founded in 2019, Alura Barbershop is already a highlight in the city and conquers new customers every
-				day.
-			</p>
+		<main>
+			<section class="main">
+				<h2 class="main-title">About Alura Barbershop</h2>
 
-			<p id="mission">
-				<em>Our mission is:<strong>"Provide self-esteem and quality of life to customers"</strong>.</em>
-			</p>
+				<img class="tools" src="tools.jpg" alt="Tools of a barber" />
 
-			<p>
-				We offer experienced professionals who are attuned to changes in the fashion world. The service has a standard
-				of excellence and agility, guaranteeing quality and satisfaction of our customers.
-			</p>
-		</div>
+				<p>
+					Located in the heart of the city, <strong>Alura Barbershop</strong> brings to the market the best for your
+					hair and beard. Founded in 2019, Alura Barbershop is already a highlight in the city and conquers new
+					customers every day.
+				</p>
 
-		<div class="benefits">
-			<h3 class="centered-title">Benefits</h3>
+				<p id="mission">
+					<em>Our mission is:<strong>"Provide self-esteem and quality of life to customers"</strong>.</em>
+				</p>
 
-			<ul>
-				<li class="items">Customer service</li>
-				<li class="items">Differentiated space</li>
-				<li class="items">Location</li>
-				<li class="items">Qualified professionals</li>
-			</ul>
+				<p>
+					We offer experienced professionals who are attuned to changes in the fashion world. The service has a standard
+					of excellence and agility, guaranteeing quality and satisfaction of our customers.
+				</p>
+			</section>
+
+			<section class="benefits">
+				<h3 class="main-title">Benefits</h3>
+
+				<ul>
+					<li class="items">Customer service</li>
+					<li class="items">Differentiated space</li>
+					<li class="items">Location</li>
+					<li class="items">Qualified professionals</li>
+				</ul>
+			</section>
 
 			<img src="benefits.jpg" class="benefits-image" />
-		</div>
+		</main>
+
+		<footer>
+			<img src="logo-white.png" alt="Alura Barbershop logo" />
+			<p class="copyright">&copy; Copyright Alura Barbershop</p>
+		</footer>
 	</body>
 </html>
