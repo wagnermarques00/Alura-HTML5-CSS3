@@ -95,8 +95,6 @@ footer {
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
 }
 
 form {
@@ -121,7 +119,7 @@ form legend {
 	margin: 20px 0;
 }
 
-.enviar {
+.send {
 	width: 40%;
 	padding: 15px 0;
 	background: orange;
@@ -134,7 +132,7 @@ form legend {
 	cursor: pointer;
 }
 
-.enviar:hover {
+.send:hover {
 	background: darkorange;
 	transform: scale(1.2);
 }
@@ -160,11 +158,31 @@ th {
 	width: 100%;
 }
 
+.main {
+	padding: 3em 0;
+	background-color: #fefefe;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .main-title {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+}
+
+/* Change the first letter of an element
+.main-title:first-letter {
+	font-weight: bold;
+} */
+
+.main-title:before {
+	content: "[ ";
+}
+
+.main-title:after {
+	content: " ]";
 }
 
 .main p {
@@ -185,12 +203,44 @@ th {
 	margin: 0 20px 20px 0;
 }
 
+.items {
+	line-height: 1.5;
+}
+
+.items:before {
+	content: "✯ ";
+}
+
+.items:first-child {
+	font-weight: bold;
+}
+
+.benefits {
+	padding: 3em auto;
+	background-color: #888888;
+}
+
 .benefits-image {
 	width: 60%;
 }
 
+.benefits-content {
+	display: flex;
+	align-items: flex-start;
+	width: 640px;
+	margin: 0 auto;
+	gap: 1em;
+}
+
+.benefits-list {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 .location {
 	padding: 3em 0;
+	background: linear-gradient(#fefefe, #888888);
 }
 
 .location p {
@@ -198,7 +248,12 @@ th {
 	text-align: center;
 }
 
+.map-container {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .video {
 	width: 560px;
-	margin: 1em auto;
+	margin: 2em auto;
 }
