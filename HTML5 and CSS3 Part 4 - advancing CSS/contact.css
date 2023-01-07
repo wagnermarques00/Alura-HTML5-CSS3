@@ -109,3 +109,33 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+	.navbar-container,
+	main,
+	form {
+		width: 100%;
+	}
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	input[type="submit"],
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="message"] {
+		display: block;
+		margin: auto;
+	}
+
+	table {
+		box-sizing: border-box;
+		width: 98%;
+		margin: 5px auto;
+	}
+}

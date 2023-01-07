@@ -93,3 +93,24 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+	.navbar-container,
+	.main,
+	.products {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.products li {
+		width: auto;
+		margin-bottom: 5px;
+	}
+}
