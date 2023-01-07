@@ -16,9 +16,21 @@
 
 	<body>
 		<header class="header">
-			<button class="header__menu">menu</button>
+			<button class="header__menu" aria-label="Menu"><i></i></button>
 			<img class="header__logo" src="./assets/img/logo.svg" alt="HZC logo" />
-			<button class="header__notification">notification</button>
+			<button class="header__notification" aria-label="Notification"><i></i></button>
 		</header>
+
+		<nav class="lateral-menu">
+			<img src="./assets/img/logo.svg" alt="HZC Logo" class="lateral-menu__logo" />
+			<a href="#" class="lateral-menu__link lateral-menu__link--start lateral-menu__link--active">Start</a>
+			<a href="#" class="lateral-menu__link lateral-menu__link--videos">Videos</a>
+			<a href="#" class="lateral-menu__link lateral-menu__link--peaks">Peaks</a>
+			<a href="#" class="lateral-menu__link lateral-menu__link--members">Members</a>
+			<a href="#" class="lateral-menu__link lateral-menu__link--shirts">Shirts</a>
+			<a href="#" class="lateral-menu__link lateral-menu__link--paintings">Paintings</a>
+		</nav>
+
+		<script src="./index.js"></script>
 	</body>
 </html>
