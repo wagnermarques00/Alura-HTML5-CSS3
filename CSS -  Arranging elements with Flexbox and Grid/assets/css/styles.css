@@ -22,7 +22,7 @@ body {
 	align-items: center;
 	background-color: #15191c;
 	padding: 8px 16px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
 }
 
 .header__menu i::before {
@@ -191,10 +191,20 @@ body {
 	.main {
 		display: grid;
 		grid-template-columns: auto 1fr auto;
+		grid-template-areas:
+			"page-title       page-title         page-title"
+			"highlight-video  highlight-video    recent-videos"
+			"videos-section   videos-section     videos-section"
+			"recent-products  products-highlight products-highlight"
+			"products-section products-section   products-section";
 		column-gap: 32px;
 		padding: 16px 60px;
 		grid-column: 2;
 	}
+}
+
+.section-title {
+	grid-column: span 4;
 }
 
 .card {
@@ -202,6 +212,10 @@ body {
 	border-radius: 15px;
 	overflow: hidden;
 	background-color: #2c343a;
+}
+
+.card__image--desktop {
+	display: none;
 }
 
 .card--highlight {
@@ -247,6 +261,11 @@ body {
 	margin-right: 8px;
 }
 
+.card__info--value::before {
+	content: "\e905";
+	margin-right: 8px;
+}
+
 .card__button {
 	display: flex;
 	justify-content: center;
@@ -264,6 +283,11 @@ body {
 	font-size: 24px;
 }
 
+.card__button--cart::before {
+	content: "\e901";
+	font-size: 24px;
+}
+
 .card__button--highlight {
 	width: 100%;
 	grid-column: span 2;
@@ -278,6 +302,23 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+	.card--highlight {
+		margin-bottom: 0;
+	}
+
+	.card__image--mobile {
+		display: none;
+	}
+
+	.card__image--desktop {
+		display: block;
+	}
+
+	.card__button--highlight {
+		grid-column: auto;
+		padding: 16px 8px;
+	}
+
 	.card--recents {
 		display: grid;
 		grid-template-columns: auto auto;
@@ -286,6 +327,7 @@ body {
 		width: 256px;
 		padding: 16px;
 		box-sizing: border-box;
+		align-self: flex-start;
 	}
 
 	.card--recents .card__title {
@@ -331,4 +373,34 @@ body {
 .section {
 	display: grid;
 	gap: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+	.section {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.highlight-video {
+		grid-area: highlight-video;
+	}
+
+	.recent-videos {
+		grid-area: recent-videos;
+	}
+
+	.videos-section {
+		grid-area: videos-section;
+	}
+
+	.products-highlight {
+		grid-area: products-highlight;
+	}
+
+	.recent-products {
+		grid-area: recent-products;
+	}
+
+	.products-section {
+		grid-area: products-section;
+	}
 }
