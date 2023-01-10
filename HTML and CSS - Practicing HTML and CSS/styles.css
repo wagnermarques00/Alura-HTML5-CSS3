@@ -24,6 +24,9 @@ body {
 	background-image: url("./assets/img/background.png");
 	background-repeat: no-repeat;
 	background-size: contain;
+	align-items: center;
+
+	text-align: center;
 }
 
 .container {
@@ -32,9 +35,17 @@ body {
 	grid-template-columns: 50% 50%;
 }
 
+.container__box {
+	margin: 0 6em;
+}
+
 .container__title {
 	font-size: 28px;
 	font-weight: 700;
+}
+
+.container__image {
+	margin: 1em 0 2 em 0;
 }
 
 .container__button {
@@ -42,6 +53,7 @@ body {
 	border-radius: 5px;
 	padding: 1em;
 	display: block;
+	margin-bottom: 1em;
 
 	color: var(--main-white);
 	text-decoration: none;
@@ -52,7 +64,36 @@ body {
 	color: var(--secondary-grey);
 }
 
+.container__description {
+	padding: 2em;
+}
+
 .button__secondary {
 	background-color: transparent;
 	border: 2px solid var(--main-white);
+}
+
+.secondary {
+	align-items: center;
+	margin: 0 10em;
+}
+
+.secondary__image {
+	width: 80%;
+}
+
+.secondary__button {
+	display: inline-block;
+	margin-top: 1em;
+}
+
+.description__title {
+	font-weight: 700;
+	font-size: 48px;
+	color: var(--main-white);
+	margin-bottom: 0.1em;
+}
+
+.description__text {
+	color: var(--secondary-grey);
 }
