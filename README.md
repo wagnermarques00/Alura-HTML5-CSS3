@@ -13,4 +13,4 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studying at the moment:
 
-- HTML and CSS: mobile-first responsiveness
+- HTML and CSS: Mobile-first responsiveness
