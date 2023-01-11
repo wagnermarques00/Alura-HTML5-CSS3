@@ -9,7 +9,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. HTML5 and CSS3 Part 3: Working with Forms and Tables
 1. HTML5 and CSS3 Part 4: Advancing in CSS
 1. CSS: Arranging elements with Flexbox and Grid
+1. HTML and CSS: Practicing HTML/CSS
 
 ## Studying at the moment:
 
-- HTML and CSS: Practicing HTML/CSS
+- HTML and CSS: mobile-first responsiveness
