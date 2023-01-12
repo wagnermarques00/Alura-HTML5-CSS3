@@ -29,3 +29,10 @@
 	font-size: 14px;
 	font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+	.topics__title,
+	.topics__list--link {
+		font-size: 24px;
+	}
+}
