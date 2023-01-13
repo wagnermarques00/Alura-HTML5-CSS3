@@ -28,6 +28,7 @@ hr {
 	.footer__list--title {
 		font-size: 14px;
 		color: var(--gray-light);
+		text-transform: uppercase;
 	}
 
 	.footer__list--item {
@@ -40,5 +41,16 @@ hr {
 		color: var(--gray);
 		text-decoration: none;
 		margin-left: 0.6em;
+	}
+}
+
+@media screen and (min-width: 1728px) {
+	.footer {
+		padding: 3em 0;
+	}
+
+	.footer__list {
+		border-left: 1px solid var(--gray-light);
+		padding-left: 1em;
 	}
 }
