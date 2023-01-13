@@ -139,6 +139,10 @@
 }
 
 @media screen and (min-width: 1728px) {
+	.header {
+		padding: 0 2em;
+	}
+
 	.container__link {
 		display: flex;
 		align-items: center;
@@ -148,10 +152,6 @@
 
 	.container__text {
 		display: block;
-	}
-
-	.header {
-		padding: 0 2em;
 	}
 
 	.options {
