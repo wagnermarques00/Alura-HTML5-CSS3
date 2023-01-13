@@ -10,7 +10,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. HTML5 and CSS3 Part 4: Advancing in CSS
 1. CSS: Arranging elements with Flexbox and Grid
 1. HTML and CSS: Practicing HTML/CSS
+1. HTML and CSS: Mobile-first responsiveness
 
 ## Studying at the moment:
 
-- HTML and CSS: Mobile-first responsiveness
+- CSS: Flexbox and responsive layouts
