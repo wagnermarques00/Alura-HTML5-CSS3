@@ -14,4 +14,5 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studying at the moment:
 
+- 7 Days Of Code - HTML and CSS
 - CSS: Flexbox and responsive layouts
