@@ -28,9 +28,11 @@
 
 .navbar__list--item {
 	margin: 0 1em;
+}
 
-	font-weight: 500;
+.navbar__list--link {
 	color: var(--grey-light);
+	font-weight: 500;
 }
 
 .navbar__navigation {
@@ -53,9 +55,11 @@
 	color: var(--white);
 	padding: 0.6em 1.1em;
 	border-radius: 0.5em;
+	box-shadow: var(--shadow);
 }
 
 .navbar__navigation-login,
-.navbar__navigation-register {
+.navbar__navigation-register,
+.navbar__list--link {
 	text-decoration: none;
 }

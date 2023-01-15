@@ -1,0 +1,26 @@
+.header {
+	padding: 6em 20em;
+}
+
+.header__aboutUs {
+	font-weight: 600;
+	color: var(--red-dark);
+	margin-bottom: 1.5rem;
+}
+
+.header__title {
+	font-size: 48px;
+	font-weight: 600;
+	margin-bottom: 2.25rem;
+}
+
+.header__text {
+	font-size: 20px;
+	color: var(--grey-light);
+}
+
+.header__aboutUs,
+.header__title,
+.header__text {
+	text-align: center;
+}
