@@ -5,6 +5,8 @@
 	line-height: 1.5;
 	font-size: 16px;
 	background-color: var(--white);
+	display: flex;
+	flex-flow: column wrap;
 }
 
 .footer__title {
@@ -17,6 +19,7 @@
 	.footer__container {
 		height: 420px;
 		padding-left: 74px;
+		justify-content: space-between;
 	}
 }
 
