@@ -1,0 +1,30 @@
+.metrics {
+	padding: 0 7rem 6rem 7rem;
+}
+
+.metrics__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.metrics__list__item {
+	width: 17.5rem;
+}
+
+.metrics__list__item--number {
+	font-weight: 600;
+	font-size: 60px;
+	color: var(--red-dark);
+	margin-bottom: 0.75rem;
+}
+
+.metrics__list__item--title {
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--black);
+	margin-bottom: 0.5rem;
+}
+
+.metrics__list__item--text {
+	color: var(--grey-light);
+}

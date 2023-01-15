@@ -1,5 +1,6 @@
 @import url(./navbar.css);
-@import url(./header.css);
+@import url(./aboutUs.css);
+@import url(./metrics.css);
 
 :root {
 	--black: #101828;
