@@ -18,6 +18,10 @@
 		padding-right: 1rem;
 	}
 
+	.section-horizontal .card {
+		column-gap: 0.5rem;
+	}
+
 	.section-horizontal .card__image {
 		height: 56px;
 		width: 56px;
@@ -25,6 +29,8 @@
 
 	.section-horizontal .card__title {
 		font: 700 14px/20px Open Sans, sans-serif;
+		grid-row: 1/4;
+		align-self: center;
 	}
 
 	.section-vertical .card {

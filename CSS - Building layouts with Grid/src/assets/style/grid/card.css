@@ -19,3 +19,8 @@
 .section-horizontal .card__title {
 	align-self: end;
 }
+
+.section-vertical .card {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
