@@ -14,13 +14,14 @@ button {
 
 /*Global variables*/
 :root {
-	--azul-escuro: #041833;
-	--azul-medio: #154580;
-	--azul-degrade: linear-gradient(180deg, var(--azul-medio) 0%, var(--azul-escuro) 100%);
-	--verde: #84eec1;
-	--cinza: rgba(196, 196, 196, 0.2);
-	--cor-textos: #ffffff;
-	--fonte-textos: "Open Sans", sans-serif;
+	--blue-dark: #041833;
+	--blue-medium: #154580;
+	--blue-gradient: linear-gradient(180deg, var(--blue-medium) 0%, var(--blue-dark) 100%);
+	--green: #84eec1;
+	--gray: rgba(196, 196, 196, 0.2);
+
+	--text-color: #ffffff;
+	--text-font: "Open Sans", sans-serif;
 }
 
 * {
@@ -28,9 +29,9 @@ button {
 }
 
 body {
-	color: var(--cor-textos);
-	background: var(--azul-degrade);
-	font-family: var(--fonte-textos);
+	color: var(--text-color);
+	background: var(--blue-gradient);
+	font-family: var(--text-font);
 }
 
 .container {
@@ -40,7 +41,7 @@ body {
 
 /*Aside*/
 .menu__lateral {
-	background-color: var(--azul-escuro);
+	background-color: var(--blue-dark);
 	padding: 2.5rem 0.5rem 0;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -54,14 +55,14 @@ body {
 }
 
 .menu__lateral__link {
-	font-family: var(--fonte-textos);
+	font-family: var(--text-font);
 	font-weight: 600;
 	letter-spacing: 2px;
 	margin-bottom: 0.5rem;
 }
 
 .active {
-	background-color: var(--azul-medio);
+	background-color: var(--blue-medium);
 	border-radius: 5px;
 	padding: 0.75rem 0;
 }
@@ -120,7 +121,7 @@ body {
 /*Horizontal section*/
 
 .section-horizontal .card {
-	background: var(--cinza);
+	background: var(--gray);
 	border-radius: 10px;
 }
 
@@ -158,7 +159,7 @@ body {
 .navbar {
 	position: fixed;
 	bottom: 0;
-	background-color: var(--azul-escuro);
+	background-color: var(--blue-dark);
 	width: 100vw;
 	opacity: 0.9;
 }
