@@ -1,0 +1,16 @@
+.section {
+	display: grid;
+}
+
+.section-horizontal {
+	grid-template-rows: 120px auto;
+}
+
+.section-vertical {
+	grid-template-columns: 1fr auto;
+	grid-template-rows: 1fr 2fr;
+}
+
+.section-vertical .section__cards {
+	grid-column: 1/3;
+}
