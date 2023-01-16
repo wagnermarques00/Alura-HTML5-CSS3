@@ -1,6 +1,7 @@
 .section-horizontal .card {
 	display: grid;
 	grid-template-columns: auto 1fr auto;
+	column-gap: 1.25rem;
 }
 
 .section-horizontal .card__image {
@@ -14,4 +15,7 @@
 .section-horizontal .card__button {
 	grid-column: 3/4;
 	grid-row: 1/4;
+}
+.section-horizontal .card__title {
+	align-self: end;
 }
