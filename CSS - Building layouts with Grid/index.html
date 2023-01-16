@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/assets/style/base.css">
+    <link rel="stylesheet" href="./src/assets/style/responsive.css">
+
+    <title>AluraCast</title>
+</head>
+
+<body>
+
+    <header class="header container">
+        <button class="header__button">
+            <img src="./src/assets/img/seta-voltar.svg" alt="Seta voltar">
+        </button>
+        <button class="header__button">
+            <img src="./src/assets/img/seta-avançar.svg" alt="Seta avancar">
+        </button>
+    </header>
+
+    <aside class="menu__lateral">
+        <h1 class="menu__lateral__logo">
+            <img src="src/assets/img/alura-Cast_logo.svg" alt="Logotipo da AluraCast">
+        </h1>
+
+        <nav>
+            <ul>
+                <li class="menu__lateral__link menu__lateral__link--home active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="menu__lateral__link menu__lateral__link--search">
+                    <a href="#">Busca</a>
+                </li>
+                <li class="menu__lateral__link menu__lateral__link--library">
+                    <a href="#">Sua Biblioteca</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h3 class="menu__lateral__playlist">Playlists</h3>
+
+        <ul>
+            <li class="menu__lateral__link menu__lateral__link--playlist">
+                <a>Criar Playlist</a>
+            </li>
+            <li class="menu__lateral__link menu__lateral__link--podcasts">
+                <a></af>Podcasts salvos</a>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main container">
+        <section class="section section-horizontal">
+            <h2 class="section__title">Tocados recentemente</h2>
+            <ul class="section__cards">
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-1.svg" alt="">
+                    <h3 class="card__title">Android Jetpack</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/layers-1.svg" alt="">
+                    <h3 class="card__title">Tipos de Cortes</h3>
+                    <h4 class="card__subtitle">Layers Ponto Tech</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/carreiras-1.svg" alt="">
+                    <h3 class="card__title">O fim</h3>
+                    <h4 class="card__subtitle">Carreiras sem Fronteiras</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/scuba-1.svg" alt="">
+                    <h3 class="card__title">Da advocacia à tech</h3>
+                    <h4 class="card__subtitle">Scuba Ponto Dev</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/boss-1.svg" alt="">
+                    <h3 class="card__title">Izabel Gallera</h3>
+                    <h4 class="card__subtitle">Like a Boss</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-2.svg" alt="">
+                    <h3 class="card__title">Ecossistema Crypto</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</h4>
+                    <div class="card__player"></div>
+                    <button class="card__button">
+                        <img src="./src/assets/img/botao-play.png" alt="">
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section section-vertical">
+            <h2 class="section__title">Hipsters Ponto Tech</h2>
+            <a class="section__link" href="#">Ver mais</a>
+            <ul class="section__cards">
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-3.svg" alt="">
+                    <h3 class="card__title">Github e nossas Funcionalidades Preferidas</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</h4>
+                </li>
+                <!--<li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-4.svg" alt="">
+                    <h3 class="card__title">Android Jetpack</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</p>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-5.svg" alt="">
+                    <h3 class="card__title">Softskills em Tech</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</p>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-6.svg" alt="">
+                    <h3 class="card__title">Educação em Dados e Machine Learning</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</p>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-7.svg" alt="">
+                    <h3 class="card__title">Ecossistema Crypto</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</p>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/hipsters-8.svg" alt="">
+                    <h3 class="card__title">Educação, Tecnologia e Periferia</h3>
+                    <h4 class="card__subtitle">Hipsters Ponto Tech</p>
+                </li>-->
+            </ul>
+        </section>
+
+        <section class="section section-vertical">
+            <h2 class="section__title">Indicados para você</h2>
+            <a class="section__link" href="">Ver mais</a>
+            <ul class="section__cards">
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/layers-2.svg" alt="">
+                    <h3 class="card__title">Montando seu estúdio</h3>
+                    <h4 class="card__subtitle">Layers Ponto Tech</h4>
+                </li>
+                <!--<li class="card">
+                    <img class="card__image" src="./src/assets/img/scuba-2.svg" alt="">
+                    <h3 class="card__title">Voltando ao mercado após a maternidade</h3>
+                    <h4 class="card__subtitle">Scuba Ponto Dev</h4>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/scuba-3.svg" alt="">
+                    <h3 class="card__title">Reencontrando a paixão por programar</h3>
+                    <h4 class="card__subtitle">Scuba Ponto Dev</h4>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-1.svg" alt="">
+                    <h3 class="card__title">Suporte UX/UI</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/layers-3.svg" alt="">
+                    <h3 class="card__title">Prospecção de clientes</h3>
+                    <h4 class="card__subtitle">Layers Ponto Tech</h4>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="./src/assets/img/boss-2.svg" alt="">
+                    <h3 class="card__title">Mariana Vasconcelos: CEO Agrosmart</h3>
+                    <h4 class="card__subtitle">Like a Boss</h4>
+                </li>-->
+            </ul>
+        </section>
+
+        <section class="section section-vertical">
+            <h2 class="section__title">Dev sem Fronteiras</h2>
+            <a class="section__link" href="#">Ver mais</a>
+            <ul class="section__cards">
+                <li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-2.svg" alt="">
+                    <h3 class="card__title">Vida e Trabalho da Costa leste</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-3.svg" alt="">
+                    <h3 class="card__title">Agile Coach e Desenvolvedor</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <!--<li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-4.svg" alt="">
+                    <h3 class="card__title">Desenvolvedor</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-5.svg" alt="">
+                    <h3 class="card__title">Suporte UX/UI</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-6.svg" alt="">
+                    <h3 class="card__title">Engenheiro de Algoritmos</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>
+                <li class="section__card card">
+                    <img class="card__image" src="./src/assets/img/fronteiras-7.svg" alt="">
+                    <h3 class="card__title">Engenheiro de Software</h3>
+                    <h4 class="card__subtitle">Dev sem Fronteiras</h4>
+                </li>-->
+            </ul>
+        </section>
+    </main>
+    <div class="navbar">
+        <ul class="navbar__items">
+            <li class="navbar__item navbar__item--home">Home</li>
+            <li class="navbar__item navbar__item--search">Busca</li>
+            <li class="navbar__item navbar__item--library">Sua Biblioteca</li>
+        </ul>
+    </div>
+</body>
+
+</html>
