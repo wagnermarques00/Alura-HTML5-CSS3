@@ -13,8 +13,9 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. HTML and CSS: Mobile-first responsiveness
 1. CSS: Flexbox and responsive layouts
 1. CSS: Building layouts with Grid
+1. HTML and CSS: Environment, files and tags
 
 ## Studying at the moment:
 
 - 7 Days Of Code - HTML and CSS
-- HTML and CSS: Environment, files and tags
+- Practicing CSS: Grid and Flexbox
