@@ -36,33 +36,3 @@
 	align-self: center;
 	width: 85%;
 }
-
-.jobs__list {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	align-self: center;
-}
-
-.jobs__list--item {
-	padding: 1.5rem 4rem;
-	border: 1px solid var(--grey-lighter);
-	border-radius: 1rem;
-}
-
-.jobs__list--title {
-	font-size: 20px;
-}
-
-.jobs__list--subtitle {
-	font-size: 18px;
-}
-
-.jobs__list--details {
-	display: flex;
-}
-
-.jobs__list--text {
-	color: var(--grey-light);
-	margin-right: 1.5rem;
-}

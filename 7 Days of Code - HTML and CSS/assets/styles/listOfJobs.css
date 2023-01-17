@@ -1,0 +1,38 @@
+.listOfJobs {
+	padding: 64px 21rem;
+}
+
+.listOfJobs--title {
+	margin: 0 0 2rem 0;
+	font-size: 20px;
+}
+
+.listOfJobs__list {
+}
+
+.listOfJobs__list__item {
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
+	border: 1px solid var(--grey-lighter);
+	border-radius: 1rem;
+}
+
+.listOfJobs__list__item--title {
+	margin-bottom: 2rem;
+	font-size: 18px;
+}
+
+.listOfJobs__list__item__details {
+	display: flex;
+	gap: 24px;
+}
+
+.listOfJobs__list__item__details--text {
+	color: var(--grey-light);
+}
+
+.listOfJobs--title,
+.listOfJobs__list__item--title,
+.listOfJobs__list__item__details--text {
+	font-weight: 500;
+}

@@ -2,6 +2,7 @@
 @import url(./aboutUs.css);
 @import url(./metrics.css);
 @import url(./jobs.css);
+@import url(./listOfJobs.css);
 
 :root {
 	--black: #101828;
