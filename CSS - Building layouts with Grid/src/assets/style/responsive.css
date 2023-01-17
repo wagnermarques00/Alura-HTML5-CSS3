@@ -18,6 +18,11 @@
 		padding-right: 1rem;
 	}
 
+	.section__cards {
+		row-gap: 0.5rem;
+		--column-gap: 1rem;
+	}
+
 	.section-horizontal .card {
 		column-gap: 0.5rem;
 	}
@@ -63,6 +68,10 @@
 
 	.menu__lateral__link::before {
 		padding-left: 0.75rem;
+	}
+
+	.section__cards {
+		--column-gap: 1.5rem;
 	}
 
 	.section-horizontal .card__title {
