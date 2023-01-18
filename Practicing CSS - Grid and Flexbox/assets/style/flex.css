@@ -6,9 +6,68 @@
 	column-gap: 33px;
 }
 
+.categories__list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+}
+
+.highlights {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.highlights__tab {
+	flex-grow: 1;
+}
+
+.events__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.5rem 1rem;
+	/*
+     * You can use column-gap and row-gap instead (example below)
+     * column-gap: 1.5rem;
+	 * row-gap: 1rem;
+     */
+}
+
+.events__item {
+	flex-grow: 1;
+	max-width: 400px;
+}
+
+.schedule__list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 1rem;
+	column-gap: 1.5rem;
+	justify-content: center;
+}
+
+.schedule__item {
+	flex-grow: 1;
+}
+
 @media (min-width: 720px) {
 	.menu {
 		column-gap: 75px;
+	}
+
+	.categories__list {
+		flex-wrap: wrap;
+		column-gap: 1.5rem;
+		row-gap: 1rem;
+	}
+
+	.events__list {
+		justify-content: end;
+	}
+
+	.schedule__list {
+		justify-content: end;
 	}
 }
 
