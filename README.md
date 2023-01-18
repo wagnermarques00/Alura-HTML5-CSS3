@@ -1,6 +1,6 @@
 # HTML5, CSS3
 
-Studies carried out on the Alura platform. I will choose to put the codes in English during the courses.
+Studies carried out on the Alura platform. I will choose to put the codes in English during the courses as much as possible.
 
 ## Studied so far:
 
