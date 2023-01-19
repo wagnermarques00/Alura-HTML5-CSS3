@@ -15,8 +15,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. CSS: Building layouts with Grid
 1. HTML and CSS: Environment, files and tags
 1. Practicing CSS: Grid and Flexbox
+1. 7 Days Of Code - HTML and CSS
 
 ## Studying at the moment:
 
-- 7 Days Of Code - HTML and CSS
 - SASS: Syntactically Spectacular CSS
