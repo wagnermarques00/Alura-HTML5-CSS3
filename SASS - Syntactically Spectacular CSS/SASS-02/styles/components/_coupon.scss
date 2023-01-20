@@ -1,0 +1,16 @@
+@import "../abstract/variables";
+
+#coupon {
+	background-color: $color-tertiary;
+	padding: 4rem;
+	text-align: center;
+
+	.text {
+		color: $color-primary;
+
+		h2 {
+			margin: 2rem;
+			font-size: $text-size / 1.7;
+		}
+	}
+}
