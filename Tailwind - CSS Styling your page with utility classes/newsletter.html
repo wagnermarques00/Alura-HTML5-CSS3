@@ -6,17 +6,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							blue: {
+								light: "#c5dfff",
+								dark: "#061e3c",
+								hover: "#1057b0",
+							},
+						},
+						fontFamily: {
+							inter: ["Inter", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
 
 		<title>Alura Newsletter</title>
 	</head>
 
-	<body class="">
+	<body class="bg-blue-light font-inter">
 		<main class="">
-			<section class="">
+			<section class="bg-blue-dark hidden">
 				<img class="" src="image/icone-mergulhador.svg" alt="icone de mergulhador" />
 			</section>
 
-			<section class="">
+			<section class="bg-white">
 				<div class="">
 					<svg
 						class=""
