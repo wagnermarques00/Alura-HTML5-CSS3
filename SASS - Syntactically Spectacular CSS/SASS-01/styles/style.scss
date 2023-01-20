@@ -1,0 +1,36 @@
+$color-main: #9145b6;
+$color-secondary: #4c3f91;
+
+@mixin reset {
+	margin: 0;
+	padding: 0;
+}
+
+@mixin color-and-text($color-background, $color-text) {
+	width: 50%;
+	background-color: $color-background;
+
+	.text {
+		margin-top: 40%;
+		text-align: center;
+		font-size: 150px;
+		color: $color-text;
+	}
+}
+
+body {
+	@include reset;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+
+	.left {
+		@include color-and-text($color-main, $color-secondary);
+	}
+
+	.right {
+		@include color-and-text($color-secondary, $color-main);
+	}
+}
