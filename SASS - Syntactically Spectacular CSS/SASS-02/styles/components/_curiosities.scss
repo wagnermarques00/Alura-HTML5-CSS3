@@ -1,0 +1,22 @@
+@import "../abstract/variables";
+
+#curiosities {
+	padding: 1rem;
+	text-align: center;
+	margin: 5px;
+
+	h3 {
+		color: $color-primary;
+		font-size: $text-size / 2.5;
+	}
+
+	h4 {
+		color: $color-secondary;
+		font-size: $text-size / 3;
+	}
+
+	p {
+		margin-top: 5px;
+		color: $color-primary;
+	}
+}
