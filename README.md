@@ -17,7 +17,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. Practicing CSS: Grid and Flexbox
 1. 7 Days Of Code - HTML and CSS
 1. SASS: Syntactically Spectacular CSS
+1. Tailwind CSS: Styling your page with utility classes
 
 ## Studying at the moment:
 
-- Tailwind CSS: Styling your page with utility classes
+- Bootstrap: Creating a responsive single-page
