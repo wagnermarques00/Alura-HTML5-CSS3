@@ -18,7 +18,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. 7 Days Of Code - HTML and CSS
 1. SASS: Syntactically Spectacular CSS
 1. Tailwind CSS: Styling your page with utility classes
+1. Bootstrap 3: Creating a responsive single-page
 
 ## Studying at the moment:
 
-- Bootstrap: Creating a responsive single-page
+- 
