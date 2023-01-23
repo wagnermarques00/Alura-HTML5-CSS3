@@ -22,4 +22,4 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studying at the moment:
 
-- 
+- Bootstrap 4: Creating a Responsive Landing Page
