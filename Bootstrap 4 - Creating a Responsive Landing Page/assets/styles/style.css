@@ -1,0 +1,13 @@
+:root {
+	--font-pacifico: "Pacifico", cursive;
+}
+
+.carousel-image {
+	height: 400px;
+	object-fit: cover;
+	object-position: 0 80%;
+}
+
+.title-font {
+	font-family: var(--font-pacifico);
+}
