@@ -1,5 +1,6 @@
 :root {
 	--font-pacifico: "Pacifico", cursive;
+	--color-red: #8b0000;
 }
 
 .carousel-image {
@@ -10,4 +11,8 @@
 
 .title-font {
 	font-family: var(--font-pacifico);
+}
+
+.font-red {
+	color: var(--color-red);
 }
