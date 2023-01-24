@@ -16,3 +16,8 @@
 .font-red {
 	color: var(--color-red);
 }
+
+.button-red {
+	background-color: var(--color-red);
+	color: #ffffff;
+}
