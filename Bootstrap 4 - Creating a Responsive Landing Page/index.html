@@ -20,9 +20,9 @@
 
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="#">fruta & fruto</a>
+					<a class="navbar-brand title-font font-red" href="#">fruta & fruto</a>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -46,7 +46,9 @@
 								<a class="nav-link" href="#">Quem somos</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contato</a>
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactsModal">
+									Contato
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -204,10 +206,49 @@
 					</article>
 				</div>
 			</section>
+
+			<section
+				class="contacts modal fade"
+				id="contactsModal"
+				tabindex="-1"
+				aria-labelledby="contactsModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<header class="modal-header">
+							<h1 class="modal-title fs-5" id="contactsModalLabel">Entre em contato</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</header>
+						<article class="modal-body">
+							<form>
+								<div class="mb-3">
+									<label class="form-label" for="nameInput">Nome Completo</label>
+									<input class="form-control" type="text" id="nameInput" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="emailInput">Email</label>
+									<input class="form-control" type="email" id="emailInput" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="textAreaInput">Deixe seu comentário</label>
+									<textarea class="form-control" id="textAreaInput" rows="3"></textarea>
+								</div>
+							</form>
+							<footer class="modal-footer">
+								<button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Fechar</button>
+								<button class="btn button-red" type="button">Enviar</button>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
 		</main>
 
-		<footer class="contacts">
-			<p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+		<footer class="bg-secondary p-3 footer">
+			<p class="text-light text-center m-0">
+				contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a>
+			</p>
 		</footer>
 
 		<script
