@@ -19,7 +19,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. SASS: Syntactically Spectacular CSS
 1. Tailwind CSS: Styling your page with utility classes
 1. Bootstrap 3: Creating a responsive single-page
+1. Bootstrap 4: Creating a Responsive Landing Page
 
 ## Studying at the moment:
 
-- Bootstrap 4: Creating a Responsive Landing Page
+- HTML and CSS: Classes, Positioning and Flexbox
