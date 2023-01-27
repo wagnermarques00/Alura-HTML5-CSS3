@@ -15,6 +15,7 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. CSS: Building layouts with Grid
 1. HTML and CSS Part 1: Environment, files and tags
 1. HTML and CSS Part 2: Classes, Positioning and Flexbox
+1. HTML and CSS Part 3: Header, Footer and CSS variables
 1. Practicing CSS: Grid and Flexbox
 1. 7 Days Of Code - HTML and CSS
 1. SASS: Syntactically Spectacular CSS
@@ -24,4 +25,4 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 
 ## Studying at the moment:
 
-- HTML and CSS Part 3: Header, Footer and CSS variables
+- Flexbox: Position elements on the screen
