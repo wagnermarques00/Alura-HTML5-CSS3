@@ -12,12 +12,29 @@ body {
 	box-sizing: border-box;
 }
 
+.header {
+	padding: 2% 0 0 15%;
+}
+
+.header__menu {
+	display: flex;
+	gap: 80px;
+}
+
+.header__menu__link {
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #22d4fd;
+	text-decoration: none;
+}
+
 .title-highlight {
 	color: #22d4fd;
 }
 
 .presentation {
-	padding: 8% 15%;
+	padding: 5% 15%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
