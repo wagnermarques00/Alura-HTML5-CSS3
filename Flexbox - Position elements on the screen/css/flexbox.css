@@ -1,0 +1,9 @@
+.header__main .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__main-nav {
+	display: flex;
+}
