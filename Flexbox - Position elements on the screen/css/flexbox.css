@@ -7,3 +7,32 @@
 .header__main-nav {
 	display: flex;
 }
+
+.footer__main-navMap-list {
+	display: flex;
+	flex-flow: column wrap;
+
+	height: 260px;
+}
+
+.footer__main__sponsors-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 70%;
+	margin-right: 5%;
+}
+
+.footer__main__sponsors .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__main-contactForm {
+	width: 25%;
+}
+
+.footer__main-contactForm-fieldset {
+	display: flex;
+}
