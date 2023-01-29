@@ -8,6 +8,25 @@
 	display: flex;
 }
 
+.main__content__courses {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.main__content__courses-link {
+	width: 23%;
+	margin: 1%;
+}
+
+.main__content__courses-link:nth-child(4n) {
+	margin-right: 0;
+}
+
+.main__content__courses-link:nth-child(4n + 1) {
+	margin-left: 0;
+}
+
 .footer__main-navMap-list {
 	display: flex;
 	flex-flow: column wrap;
