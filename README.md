@@ -22,7 +22,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. Tailwind CSS: Styling your page with utility classes
 1. Bootstrap 3: Creating a responsive single-page
 1. Bootstrap 4: Creating a Responsive Landing Page
+1. Flexbox: Position elements on the screen
 
 ## Studying at the moment:
 
-- Flexbox: Position elements on the screen
+- CSS architecture: Making problems uncomplicated
