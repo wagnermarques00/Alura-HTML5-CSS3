@@ -27,6 +27,27 @@
 	margin-left: 0;
 }
 
+.video .container {
+	display: flex;
+}
+
+.video-video {
+	flex-grow: 1;
+	flex-shrink: 2;
+}
+
+.video__about {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+
+	text-align: center;
+}
+
+.video__about-list {
+	flex-grow: 1;
+}
+
 .footer__main-navMap-list {
 	display: flex;
 	flex-flow: column wrap;
@@ -54,4 +75,57 @@
 
 .footer__main-contactForm-fieldset {
 	display: flex;
+}
+
+@media screen and (max-width: 768px) {
+	.header__main-nav {
+		flex-direction: column;
+	}
+
+	.header__main-nav-link-app {
+		order: -1;
+	}
+
+	.header__main .container {
+		flex-direction: column;
+		align-items: initial;
+
+		text-align: center;
+	}
+
+	.main__content__courses-link {
+		width: 100%;
+	}
+
+	.video .container {
+		flex-direction: column;
+	}
+
+	.video-video {
+		margin: 0 auto;
+	}
+
+	.footer__main-navMap-list {
+		height: auto;
+	}
+
+	.footer__main__sponsors .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__main__sponsors-list {
+		margin: 0;
+		width: 100%;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.footer__main-contactForm {
+		width: 100%;
+	}
+
+	.footer__main-contactForm-fieldset {
+		justify-content: center;
+	}
 }
