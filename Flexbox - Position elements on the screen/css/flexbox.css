@@ -118,7 +118,7 @@
 		margin: 0;
 		width: 100%;
 		flex-direction: column;
-		gap: 5px;
+		gap: 10px;
 	}
 
 	.footer__main-contactForm {
