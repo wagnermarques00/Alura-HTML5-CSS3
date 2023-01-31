@@ -23,7 +23,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. Bootstrap 3: Creating a responsive single-page
 1. Bootstrap 4: Creating a Responsive Landing Page
 1. Flexbox: Position elements on the screen
+1. CSS architecture: Making problems uncomplicated
 
 ## Studying at the moment:
 
-- CSS architecture: Making problems uncomplicated
+- HTML and CSS Part 4: Working with responsiveness and publishing projects
