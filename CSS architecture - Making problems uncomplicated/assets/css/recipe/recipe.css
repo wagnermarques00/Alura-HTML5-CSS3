@@ -1,0 +1,8 @@
+.recipe {
+	display: flex;
+	flex-direction: column;
+
+	background-color: #fdfdfd;
+	margin: 0 5rem 5rem 0;
+	width: calc(25% - 5rem);
+}
