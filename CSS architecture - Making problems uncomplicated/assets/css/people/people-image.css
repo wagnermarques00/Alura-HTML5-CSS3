@@ -1,0 +1,21 @@
+.people__image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100%;
+	height: 300px;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.people__image--roberta {
+	background-image: url("../../img/people/roberta.jpg");
+}
+
+.people__image--marcela {
+	background-image: url("../../img/people/marcela.jpg");
+}
+
+.people__image--andreia {
+	background-image: url("../../img/people/andreia.jpg");
+}
