@@ -57,7 +57,7 @@ body {
 	flex-direction: column;
 	gap: 40px;
 
-	width: 615px;
+	width: 50%;
 }
 
 .presentation__content__title {
@@ -83,7 +83,7 @@ body {
 	font-size: 1.5rem;
 	font-weight: 400;
 }
-.presentation__content__links-link {
+.presentation__content__links-navigation {
 	display: flex;
 	align-items: center;
 	gap: 16px;
@@ -92,7 +92,7 @@ body {
 	border: 2px solid var(--color-tertiary);
 	border-radius: 8px;
 	padding: 16px 0;
-	width: 378px;
+	width: 50%;
 
 	color: var(--color-secondary);
 	font-family: var(--font-secondary);
@@ -102,8 +102,12 @@ body {
 	text-decoration: none;
 }
 
-.presentation__content__links-link:hover {
+.presentation__content__links-navigation:hover {
 	background-color: var(--color-primary-hover);
+}
+
+.presentation__image {
+	width: 50%;
 }
 
 .footer {
