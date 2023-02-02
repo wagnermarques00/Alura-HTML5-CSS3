@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import Title from "../Title";
 import Account from "../Account";
+import Extract from "../Extract";
 
 const ContainerWrapper = styled.div`
 	background-color: #f1f1f1;
@@ -26,6 +27,7 @@ const Container = () => {
 			<Title>Olá Fulano!</Title>
 			<Content>
 				<Account />
+				<Extract />
 			</Content>
 		</ContainerWrapper>
 	);
