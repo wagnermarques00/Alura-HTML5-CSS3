@@ -25,7 +25,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. Bootstrap 4: Creating a Responsive Landing Page
 1. Flexbox: Position elements on the screen
 1. CSS architecture: Making problems uncomplicated
+1. React: Abstracting your CSS with Styled Components
 
 ## Studying at the moment:
 
-- React: Abstracting your CSS with Styled Components
+- React with TailwindCSS: Styling Components
