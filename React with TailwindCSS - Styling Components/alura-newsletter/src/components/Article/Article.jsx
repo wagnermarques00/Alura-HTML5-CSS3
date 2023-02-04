@@ -1,11 +1,11 @@
 const Article = ({ alt, image, tags, text, title }) => {
 	return (
-		<article className="flex flex-col items-center gap-2 p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg">
+		<article className="flex flex-col items-center gap-2 p-5 bg-gray-200 sm:hover:shadow-gray-600 sm:hover:shadow-lg sm:rounded-xl sm:shadow-lg dark:bg-dark-200">
 			<h3 className="font-bold text-xl text-alura-200 dark:text-gray-200 ">{title}</h3>
 			<div className="w-full pr-5 hidden sm:flex sm:flex-row sm:gap-2 sm:justify-end">
 				{tags.map((tag) => (
 					<span
-						className="bg-alura-100  px-4 py-1 rounded-full text-gray-200 text-xs uppercase font-bold dark:bg-dark-100"
+						className="bg-alura-100  px-4 py-1 rounded-full text-gray-200 text-xs uppercase font-bold hover:bg-alura-200 hover:scale-110 dark:bg-dark-100"
 						key={tag}
 					>
 						{tag}
