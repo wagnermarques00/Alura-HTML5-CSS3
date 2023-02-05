@@ -26,7 +26,8 @@ Studies carried out on the Alura platform. I will choose to put the codes in Eng
 1. Flexbox: Position elements on the screen
 1. CSS architecture: Making problems uncomplicated
 1. React: Abstracting your CSS with Styled Components
+1. React with TailwindCSS: Styling Components
 
 ## Studying at the moment:
 
-- React with TailwindCSS: Styling Components
+- 
